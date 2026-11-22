@@ -1,0 +1,8 @@
+row = 1
+number = 1
+while row <= 3:
+    for col in range(3):
+        print(number, end=" ")
+        number += 1
+    print()
+    row += 1
